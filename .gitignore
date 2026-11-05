@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+venv/
+ENV/
+build/
+devel/
+dist/
+*.egg-info/
+
+# Pytest / Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Logs & Data exports
+*.log
+export_*.csv
+export_*.json
+export_*.html
+export_*.md
+*.pcap
+*.pcapng
+!sample_data/*.pcap
+
+# IDEs
+.vscode/
+.idea/
+*.swp
